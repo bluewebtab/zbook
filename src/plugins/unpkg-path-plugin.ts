@@ -24,9 +24,7 @@ export const unpkgPathPlugin = () => {
           namespace: 'a',
           path: `https://unpkg.com/${args.path}`
         }
-      });
-      //Attempts to load up the index.js file
-    
+      });    
     },
   };
 };
